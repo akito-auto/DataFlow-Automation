@@ -13,6 +13,12 @@ A small Python automation tool for cleaning, merging and exporting CSV/Excel dat
 - Exports to CSV, Excel or JSON
 - Generates a simple JSON quality report
 
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Example
 
 ```bash
