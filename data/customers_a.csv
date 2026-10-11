@@ -1,0 +1,5 @@
+Name,Email,City,Orders
+ Alice ,alice@example.com,Prague,3
+Bob,bob@example.com,Brno,1
+Carol,carol@example.com,Ostrava,5
+David,david@example.com,Prague,2
