@@ -32,7 +32,7 @@ def load_table(path: str | Path) -> pd.DataFrame:
 
     if suffix == ".csv":
         df = pd.read_csv(path)
-    elif suffix in {".xlsx", ".xls"}:
+    elif suffix == ".xlsx":
         df = pd.read_excel(path)
     else:
         raise ValueError(f"Unsupported input format: {path.suffix}")
